@@ -8,7 +8,7 @@ public class remainder {
 
         System.out.println("Enter a number :");
         int num1 = input.nextInt();
-        System.out.println("Enter another number to get Base.Arithmetic.remainder :");
+        System.out.println("Enter another number to get remainder :");
         int num2 = input.nextInt();
 
         int rem = num1 % num2;
