@@ -1,19 +1,18 @@
-package Base.Arithmetic;
+package Base.Operators.Arithmetic;
 
 import java.util.Scanner;
 
-public class multiplication {
+public class remainder {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter a number :");
         int num1 = input.nextInt();
-        System.out.println("Enter another number to multiple :");
+        System.out.println("Enter another number to get remainder :");
         int num2 = input.nextInt();
 
-        int multi = num1 * num2;
-        System.out.println("Value is :"+ multi);
-
+        int rem = num1 % num2;
+        System.out.println("Value is :"+ rem);
 
 
     }
