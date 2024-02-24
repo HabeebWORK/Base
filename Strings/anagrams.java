@@ -1,2 +1,5 @@
-package Base.Strings;public class anagrams {
+package Base.Strings;
+
+public class anagrams {
+
 }

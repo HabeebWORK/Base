@@ -36,5 +36,10 @@ public class occurrences {
             }
         }
         System.out.println("Yess we found you - we are luckey to have you again -- " + C + "times");
+
+
+
+
+
     }
 }

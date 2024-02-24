@@ -32,3 +32,10 @@ public class Reverse {
 
 
 }
+
+
+
+//--------- Easy way to reverse a string
+//StringBuilder sb=new StringBuilder ("hello");
+//        sb.reverse();
+//        System.out.println(sb);
