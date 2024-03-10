@@ -10,6 +10,7 @@ public class Linear_Search {
         int[] Nums = {11,22,33,44,55,66,77,88,99};
 
 
+
 //        System.out.println("Enter 10 digits to store in array :");
         for(int i=0; i<Nums.length;i++){
 //             Nums[i] = Input.nextInt();
@@ -31,18 +32,20 @@ public class Linear_Search {
 //    i am writing a function of leanear search algo
      static int LeanearSearch(int[] Arr,int Target) {
 
-        if(Arr.length == 0){
-            System.out.println("No Array Found");
-            return -1;
-        }
+//        if(Arr.length == 0){
+//            System.out.println("No Array Found");
+//            return -1;
+//        }
 
-        for(int index = 0;index<Arr.length;index++ ){
-            int element = Arr[index];
-            if (element==Target){
-                return index;
-            }
 
-        }
+         int length = Arr.length;
+
+         for (int element : Arr) {
+             if (element == Target) {
+                 return element;
+             }
+
+         }
 
          return -1;
 
